@@ -95,3 +95,21 @@ ul li.active a{
         transform: translate(0px);
     }
 }
+
+.profile img{
+    position: absolute;
+    top: 60%;
+    left: 41%;
+    float: left;
+    width: 250px;
+    height: auto;
+}
+
+.nameplate{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

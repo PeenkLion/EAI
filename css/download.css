@@ -52,7 +52,7 @@ ul li.active a{
 .title{
     position: absolute;
     top: 38%;
-    left: 31.5%;
+    left: 33%;
     background: linear-gradient(to right, #9A33FF, #DB94FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -88,10 +88,19 @@ ul li.active a{
 @keyframes drop{
     0%{
         opacity: 0;
-        transform: translate(-100px);
+        transform: translate(+100px);
     }
     100%{
         opacity: 1;
         transform: translate(0px);
     }
+}
+
+.download{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    background: #FF0000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
